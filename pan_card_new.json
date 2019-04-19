@@ -1,0 +1,66 @@
+{
+  "type": "PAN_CARD_NEW",
+  "fontPath": "../fonts/pan",
+  "image_width": 1280,
+  "image_height": 720,
+  "pivot":{
+    "roi_min_start_x": "600",
+    "roi_min_start_y": "30",
+    "roi_max_start_x": "600",
+    "roi_max_start_y": "30",
+    "roi_min_end_x": "720",
+    "roi_min_end_y": "190",
+    "roi_max_end_x": "720",
+    "roi_max_end_y": "190"
+  },
+  "rois": [
+    {
+      "name": "Name",
+      "regex": "",
+      "roi_min_start_x": "-570",
+      "roi_min_start_y": "150",
+      "roi_max_start_x": "-570",
+      "roi_max_start_y": "150",
+      "roi_min_width": "820",
+      "roi_min_height": "100",
+      "roi_max_width": "820",
+      "roi_max_height": "100"
+    },
+    {
+      "name": "Guardian",
+      "regex": "",
+      "roi_min_start_x": "-570",
+      "roi_min_start_y": "250",
+      "roi_max_start_x": "-570",
+      "roi_max_start_y": "250",
+      "roi_min_width": "820",
+      "roi_min_height": "70",
+      "roi_max_width": "820",
+      "roi_max_height": "70"
+    },
+    {
+      "name": "DOB",
+      "regex": "",
+      "roi_min_start_x": "-570",
+      "roi_min_start_y": "340",
+      "roi_max_start_x": "-570",
+      "roi_max_start_y": "340",
+      "roi_min_width": "290",
+      "roi_min_height": "70",
+      "roi_max_width": "290",
+      "roi_max_height": "70"
+    },
+    {
+      "name": "Permanent A/C Number",
+      "regex": "",
+      "roi_min_start_x": "-570",
+      "roi_min_start_y": "450",
+      "roi_max_start_x": "-570",
+      "roi_max_start_y": "450",
+      "roi_min_width": "450",
+      "roi_min_height": "80",
+      "roi_max_width": "450",
+      "roi_max_height": "80"
+    }
+  ]
+}

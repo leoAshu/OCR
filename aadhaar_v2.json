@@ -1,0 +1,66 @@
+{
+  "type": "AADHAR_V2",
+  "fontPath": "../fonts/aadhar",
+  "image_width": 1280,
+  "image_height": 720,
+  "pivot":{
+    "roi_min_start_x": "130",
+    "roi_min_start_y": "5",
+    "roi_max_start_x": "130",
+    "roi_max_start_y": "5",
+    "roi_min_end_x": "225",
+    "roi_min_end_y": "130",
+    "roi_max_end_x": "225",
+    "roi_max_end_y": "130"
+  },
+  "rois": [
+    {
+      "name": "Name",
+      "regex": "",
+      "roi_min_start_x": "220",
+      "roi_min_start_y": "140",
+      "roi_max_start_x": "220",
+      "roi_max_start_y": "140",
+      "roi_min_width": "930",
+      "roi_min_height": "45",
+      "roi_max_width": "930",
+      "roi_max_height": "45"
+    },
+    {
+      "name": "DOB",
+      "regex": "",
+      "roi_min_start_x": "550",
+      "roi_min_start_y": "175",
+      "roi_max_start_x": "550",
+      "roi_max_start_y": "175",
+      "roi_min_width": "240",
+      "roi_min_height": "40",
+      "roi_max_width": "240",
+      "roi_max_height": "40"
+    },
+    {
+      "name": "Gender",
+      "regex": "",
+      "roi_min_start_x": "220",
+      "roi_min_start_y": "210",
+      "roi_max_start_x": "220",
+      "roi_max_start_y": "210",
+      "roi_min_width": "570",
+      "roi_min_height": "40",
+      "roi_max_width": "570",
+      "roi_max_height": "40"
+    },
+    {
+      "name": "UID",
+      "regex": "",
+      "roi_min_start_x": "230",
+      "roi_min_start_y": "555",
+      "roi_max_start_x": "230",
+      "roi_max_start_y": "555",
+      "roi_min_width": "610",
+      "roi_min_height": "60",
+      "roi_max_width": "610",
+      "roi_max_height": "60"
+    }
+  ]
+}
